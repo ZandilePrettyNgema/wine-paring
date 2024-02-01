@@ -1,6 +1,19 @@
+a{
+  border: 1px solid blue;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+  background: blue;
 
+}
 .food-menu h1,
 .desert h1 {
   font-size: 16px;
 }
-
+.food-item {
+  display: flex;
+  width: 50%;
+}
+.food-item img {
+}
