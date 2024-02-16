@@ -15,7 +15,8 @@ h1 {
 .container {
   padding: 0%;
 }
-.food-menu a {
+.food-menu a,
+.menu-dessert-links a {
   border: 1px solid blue;
   border-radius: 4px;
   text-decoration: none;
@@ -23,7 +24,8 @@ h1 {
   color: #fff;
   background: blue;
 }
-.food-menu a:hover {
+.food-menu a:hover,
+.menu-dessert-links a:hover {
   color: blue;
   background: #fff;
 }
@@ -64,5 +66,9 @@ h1 {
 .welcome-page p {
   line-height: 25px;
 }
-
-
+.menu-dessert-links a {
+  margin: 0 10px;
+}
+.menu-dessert-links {
+  margin: 50px 30px;
+}
