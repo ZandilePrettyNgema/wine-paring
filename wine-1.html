@@ -3,33 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      .wine-pair-information {
-        text-align: center;
-      }
-      .wine-info {
-        display: flex;
-        justify-content: space-around;
-      }
-    </style>
+    <title>Wine Pair | Wine Information</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <style></style>
   </head>
-  <body
-    style="
-      background-image: url('images/wine-image.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center center;
-    "
-  >
+  <body>
     <div class="wine-pair-information">
-      <h1>Here are the wine pairs and their information</h1>
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col">
             <div class="wine-info">
-              <div class="wine-pair">
+              <div class="wine-pair" id="wine-pair-1">
                 <img src="/wine-images/Chenin Blanc (Petit).png" width="110" />
                 <h2>Chenin Blanc (Petit)</h2>
                 <img
@@ -38,9 +22,8 @@
                   height="400"
                 />
               </div>
-
-              <div class="col-md-6">
-                <div class="wine-pair">
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-1">
                   <img
                     src="/wine-images/Bukettraube (Cederburg).png"
                     width="110"
@@ -52,6 +35,475 @@
                     height="400"
                   />
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-2">
+                <img
+                  src="/wine-images/Dry Chenin Blanc (Vinum Africa).png"
+                  width="160"
+                />
+                <h2>Dry Chenin Blanc (Vinum Africa)</h2>
+                <img
+                  src="/wine-menu-description/Picture3.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-2">
+                  <img src="/wine-images/Chardonnay (J&G).png" width="110" />
+                  <h2>Chardonnay(J&G)</h2>
+                  <img
+                    src="/wine-menu-description/Picture4.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-3">
+                <img src="/wine-images/Chardonnay (Spier).jpg" width="300" />
+                <h2>Chardonnay (Spier)</h2>
+                <img
+                  src="/wine-menu-description/Picture5.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-3">
+                  <img
+                    src="/wine-images/Pinotage (Backsberg Family Wine).png"
+                    width="180"
+                  />
+                  <h2>Pinotage (Backsberg Family Wine)</h2>
+                  <img
+                    src="/wine-menu-description/Picture6.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-4">
+                <img
+                  src="/wine-images/Cabernet Franc (Tanagra).png"
+                  width="110"
+                />
+                <h2>Cabernet Franc (Tanagra)</h2>
+                <img
+                  src="/wine-menu-description/Picture7.jpg"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-4">
+                  <img
+                    src="/wine-images/Bordeaux Style blend (Nederburg The Brew Master Bordeaux-style Blend 2017).png"
+                    width="166"
+                  />
+                  <h2>
+                    Bordeaux Style blend (Nederburg: The Brew Master
+                    Bordeaux-style Blend 2017)
+                  </h2>
+                  <img
+                    src="/wine-menu-description/Picture2.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-5">
+                <img
+                  src="/wine-images/Cabinet Sauvignon (Spier).png"
+                  width="110"
+                />
+                <h2>Cabinet Sauvignon (Spier)</h2>
+                <img
+                  src="/wine-menu-description/Picture9.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-5">
+                  <img
+                    src="/wine-images/Pinotage (Backsberg).png"
+                    width="170"
+                  />
+                  <h2>Pinotage (Backsberg)</h2>
+                  <img
+                    src="/wine-menu-description/Picture10.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-6">
+                <img src="/wine-images/Chardonnay (Spier).jpg" width="250" />
+                <h2>Chardonnay</h2>
+                <img
+                  src="/wine-menu-description/Picture11.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-6">
+                  <img
+                    src="/wine-images/Pinot Noir (The Smugglers Boot).png"
+                    width="110"
+                  />
+                  <h2>Pinot Noir (The Smugglers Boot)</h2>
+                  <img
+                    src="/wine-menu-description/Picture2.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-7">
+                <img
+                  src="/wine-images/Bordeaux Style blend (Nederburg The Brew Master Bordeaux-style Blend 2017).png"
+                  width="170"
+                />
+                <h2>
+                  Bordeaux Style blend (Nederburg: The Brew Master
+                  Bordeaux-style Blend 2017)
+                </h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-7">
+                  <img
+                    src="/wine-images/Cabernet Franc (Tanagra).png"
+                    width="110"
+                  />
+                  <h2>Cabernet Franc (Tanagra)</h2>
+                  <img
+                    src="/wine-menu-description/Picture12.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-8">
+                <img src="/wine-images/Shiraz (Driehoek).png" width="110" />
+                <h2>Shiraz (Driehoek)</h2>
+                <img
+                  src="/wine-menu-description/Picture13.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-8">
+                  <img
+                    src="/wine-images/Cabernet Sauvignon (Backsberg).png"
+                    width="110"
+                  />
+                  <h2>Cabernet Sauvignon (Backsberg)</h2>
+                  <img
+                    src="/wine-menu-description/Picture14.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-9">
+                <img src="/wine-images/Chenin Blanc (Petit).png" width="110" />
+                <h2>Chenin Blanc (Petit)</h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-9">
+                  <img src="/wine-images/Chardonnay (Spier).jpg" width="250" />
+                  <h2>Chardonnay (Spier)</h2>
+                  <img
+                    src="/wine-menu-description/Picture11.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-10">
+                <img
+                  src="/wine-images/Pinot Noir (The Smugglers Boot).png"
+                  width="110"
+                />
+                <h2>Pinot Noir (The Smugglers Boot)</h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-10">
+                  <img
+                    src="/wine-images/Zinfandel (Blaauwklippen).png"
+                    width="110"
+                  />
+                  <h2>Zinfandel (Blaauwklippen)</h2>
+                  <img
+                    src="/wine-menu-description/Picture19.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-11">
+                <img
+                  src="/wine-images/Sauvignon Blanc (DeGrendel).jpg"
+                  width="110"
+                />
+                <h2>Sauvignon Blanc (DeGrendel)</h2>
+                <img
+                  src="/wine-dessert-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-11">
+                  <img src="/wine-images/Chardonnay (Spier).jpg" width="250" />
+                  <h2>Chardonnay (Spier)</h2>
+                  <img
+                    src="/wine-dessert-description/Picture2.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-12">
+                <img
+                  src="/wine-images/Cabernet Sauvignon (Backsberg).png"
+                  width="110"
+                />
+                <h2>Cabernet Sauvignon (Backsberg)</h2>
+                <img
+                  src="/wine-dessert-description/Picture6.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <div class="col">
+                <div class="wine-pair" id="wine-pair-12">
+                  <img
+                    src="/wine-images/Weisser Reisling (Bergsig).png"
+                    width="110"
+                  />
+                  <h2>Weisser Riesling (Bergsig)</h2>
+                  <img
+                    src="/wine-dessert-description/Picture5.png"
+                    width="300"
+                    height="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-13">
+                <img
+                  src="/wine-images/Weisser Reisling (Bergsig).png"
+                  width="110"
+                />
+                <h2>Weisser Reisling (Bergsig)</h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-14">
+                <img src="/wine-images/Merlot (Protea).png" width="110" />
+                <h2>Merlot (Protea)</h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-15">
+                <img
+                  src="/wine-images/Weisser Reisling (Bergsig).png"
+                  width="110"
+                />
+                <h2>Weisser Reisling (Bergsig)</h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-16">
+                <img src="/wine-images/Malbec (Diemersdal).jpg" width="300" />
+                <h2>Malbec (Diemersdal)</h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-17">
+                <img src="/wine-images/Merlot (Protea).png" width="110" />
+                <h2>Merlot (Protea)</h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-18">
+                <img
+                  src="/wine-images/Chardonnay (Backsberg-Brut).png"
+                  width="110"
+                />
+                <h2>Chardonnay (Backsberg-Brut)</h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-19">
+                <img src="/wine-images/Sauvignon (DeGrendel).png" width="110" />
+                <h2>Sauvignon (DeGrendel)</h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="wine-info">
+              <div class="wine-pair" id="wine-pair-20">
+                <img
+                  src="/wine-images/Pinot Noir (The Smugglers Boot).png"
+                  width="110"
+                />
+                <h2>Pinot Noir (Smugglers Boot)</h2>
+                <img
+                  src="/wine-menu-description/Picture1.png"
+                  width="300"
+                  height="400"
+                />
               </div>
             </div>
           </div>
