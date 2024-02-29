@@ -1,7 +1,11 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 h2,
 h3,
-h4,
-.food-menu h1 {
+h4 {
   color: #fff;
   font-size: 18px;
   margin-bottom: 35px;
@@ -23,6 +27,12 @@ h2 {
 .menu-dessert-links a:hover {
   color: blue;
   background: #fff;
+}
+.food-menu h1 {
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 35px;
+  font-weight: bold;
 }
 
 .food-menu {
@@ -55,9 +65,14 @@ h2 {
 }
 .wine-info h2 {
   color: black;
+  background: white;
 }
 .wine-info {
   margin: 55px 15px;
   padding: 50px;
 }
-
+.wine-more-info {
+  color: black;
+  padding: 2% 10%;
+  background: white;
+}
