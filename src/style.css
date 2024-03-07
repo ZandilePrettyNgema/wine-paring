@@ -14,6 +14,9 @@ h4 {
 h2 {
   margin-top: 60px;
 }
+nav li {
+  list-style-type: none;
+}
 .food-menu a,
 .menu-dessert-links a {
   border: 1px solid blue;
@@ -41,10 +44,13 @@ h2 {
 
 .welcome-page {
   text-align: center;
+  color: white;
+  margin: 100px 0;
 }
 .welcome-page img {
+  display: block;
+  margin: 40px auto;
   width: 90px;
-  margin-top: 40px;
 }
 .welcome-page p {
   line-height: 25px;
@@ -75,4 +81,41 @@ h2 {
   color: black;
   padding: 2% 10%;
   background: white;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: right;
+  margin: 30px 35px;
+}
+.nav-item {
+  margin: 0 20px;
+}
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+.search-engine {
+  position: relative;
+  top: -50px;
+  left: 55px;
+}
+.search-key,
+.submit-key {
+  padding: 10px 30px;
+  margin: 0 10px;
+  border: white;
+}
+.search-key {
+  background: white;
+  border-color: blue;
+}
+.submit-key {
+  border-radius: 5px;
+  background: blue;
+  color: #fff;
+}
+.submit-key:hover {
+  border-radius: 5px;
+  background: white;
+  color: blue;
 }

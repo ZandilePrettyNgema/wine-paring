@@ -15,20 +15,43 @@
       src="https://kit.fontawesome.com/925f019301.js"
       crossorigin="anonymous"
     ></script>
-    <style>
-      body {
-        background: black;
-      }
-      .background-container {
-        background: url("images/food.jpg");
-        background-size: cover;
-        background-position: 10px;
-        background-attachment: fixed;
-      }
-    </style>
   </head>
-  <body>
+  <body
+    style="
+      background: url(images/food.jpg);
+      background-size: cover;
+      background-position: 10px;
+      background-attachment: fixed;
+    "
+  >
+    <nav>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/deserts.html">Desserts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wine-1.html">Wines</a>
+        </li>
+      </ul>
+    </nav>
     <div class="background-container">
+      <div class="search-engine">
+        <form>
+          <input
+            type="search"
+            name="search"
+            placeholder="Enter a keyword...."
+            class="search-key"
+          />
+          <input type="submit" value="Search" class="submit-key" />
+        </form>
+      </div>
       <div class="food-menu">
         <h1>Menu</h1>
         <div class="container">
@@ -140,7 +163,6 @@
           </div>
         </div>
       </div>
-      <a href="deserts.html">Explore the Desserts too!!</a>
     </div>
   </body>
 </html>
