@@ -102,7 +102,7 @@ nav li {
   color: #fff;
   text-decoration: none;
 }
-.nav-item a:hover{
+.nav-item a:hover {
   background: black;
   color: white;
   padding: 15px;
@@ -113,4 +113,19 @@ nav li {
 .nav-bar a {
   color: Black;
   text-decoration: none;
+}
+@media (max-width: 800px) {
+  .menu-dessert-links a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+  .wine-info {
+    display: block;
+    padding: 50px;
+    border: 1px solid #000;
+  }
+  .wine-pair img {
+    margin: 35px 0;
+  }
 }
