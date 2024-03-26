@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu | Main Food Item</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="src/app.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +16,11 @@
       src="https://kit.fontawesome.com/925f019301.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+      .navbar-nav {
+        margin: -69px 35px;
+      }
+    </style>
   </head>
   <body
     style="
@@ -25,13 +31,23 @@
       background-attachment: fixed;
     "
   >
+    <form>
+      <input
+        type="text"
+        name=""
+        id="search-box"
+        placeholder="Search...."
+        class="search-box"
+        onkeyup="search()"
+      />
+    </form>
     <nav>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="/index.html">Home</a>
+          <a class="nav-link" href="/index.html" title="Homepage">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/menu.html">Menu</a>
+          <a class="nav-link" href="/menu.html" title="our menu">Menu</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/deserts.html">Desserts</a>
@@ -44,7 +60,7 @@
     <div class="background-container">
       <div class="food-menu">
         <h1>Menu</h1>
-        <div class="container">
+        <div class="container" id="container">
           <div class="row">
             <div class="col">
               <h2>Lamb curry served with Pap and sautéed vegetables</h2>
@@ -154,5 +170,6 @@
         </div>
       </div>
     </div>
+    <div class="loader"></div>
   </body>
 </html>

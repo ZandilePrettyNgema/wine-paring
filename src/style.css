@@ -24,6 +24,9 @@ h2 {
 nav li {
   list-style-type: none;
 }
+form {
+  margin: 10px 80px;
+}
 
 .food-menu a,
 .menu-dessert-links a {
@@ -71,20 +74,23 @@ nav li {
   margin: 50px 30px;
 }
 .wine-pair-information {
+  margin-top: 88px;
   text-align: center;
 }
 .wine-info {
   display: flex;
   justify-content: space-around;
+  border: 1px solid #fff;
+  background: #fff;
+  margin: 55px 200px;
+  padding: 50px;
+  border-radius: 25px;
 }
 .wine-info h2 {
   color: black;
   background: white;
 }
-.wine-info {
-  margin: 55px 15px;
-  padding: 50px;
-}
+
 .wine-more-info {
   color: black;
   padding: 2% 10%;
@@ -101,6 +107,7 @@ nav li {
 .nav-item a {
   color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 .nav-item a:hover {
   background: black;
@@ -109,23 +116,50 @@ nav li {
   border-radius: 25px;
   transition: all 200ms ease-in-out;
 }
+.search-box {
+  padding: 10px 35px;
+  margin: 20px 10px;
+  border-radius: 5px;
+  border: none;
 
-.nav-bar a {
-  color: Black;
-  text-decoration: none;
-}
-@media (max-width: 800px) {
-  .menu-dessert-links a {
-    display: block;
-    margin: 10px 0;
-    padding: 10px 0;
+  .loader {
+    position: fixed;
+    top: 300px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f7fafb;
+    transition: opacity o.75s, visibility 0.75s;
   }
-  .wine-info {
-    display: block;
-    padding: 50px;
-    border: 1px solid #000;
+  .loader-hidden {
+    opacity: 0;
+    visibility: hidden;
   }
-  .wine-pair img {
-    margin: 35px 0;
+  .loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #744af5;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+  }
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+  @media (max-width: 800px) {
+    .menu-dessert-links a {
+      display: block;
+      margin: 10px 0;
+      padding: 10px 0;
+    }
   }
 }
